@@ -1,0 +1,45 @@
+# Environment and secrets
+.env
+.env.local
+*.secret
+credentials.json
+**/secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+temp/
+tmp/
+
+# Node modules (if using npm for MCP servers)
+node_modules/
+package-lock.json
+
+# Python (if using Python for scripts)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Build outputs
+dist/
+build/
+*.o
+*.so
+
+# Test outputs
+coverage/
+.coverage
+*.test
